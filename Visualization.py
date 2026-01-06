@@ -1,3 +1,4 @@
+# Visualization
 def generate_grid(model, FM, device, num_samples=16, steps=50):
     # Start from Gaussian noise in image shape
     x = torch.randn(num_samples, 28*28, device=device)
