@@ -1,3 +1,4 @@
+# Model Architechture
 class MLP(nn.Module):
     def __init__(self, img_size=28, hidden=512, num_classes=10, class_cond=True, time_emb_dim=64):
         super().__init__()
